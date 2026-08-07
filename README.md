@@ -10,6 +10,7 @@ A web development project inspired by **Spider-Man — Brand New Day**.
 
 This project was developed as part of the **DevArt — Um Novo Dia** course by **WebHub**, taught by **Gustavo Campelo**.
 
+The goal of the course was to learn how to develop a complete web project using Artificial Intelligence as a support tool throughout the development process.
 ## My Version
 
 This is my personalized version of the project presented in the course.
