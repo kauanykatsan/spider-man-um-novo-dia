@@ -1,7 +1,8 @@
 <p align="center">
   <img src="Designer.png" width="600">
 </p>
-# 🕷️ Spider-Man — Brand New Day
+
+## 🕷️🕸️ Spider-Man — Brand New Day
 
 A web development project inspired by **Spider-Man — Brand New Day**.
 
