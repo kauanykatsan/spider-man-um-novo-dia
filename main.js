@@ -131,9 +131,9 @@ const TL_DURATION = ACT_1 + ACT_2;
 const SCROLL_PER_UNIT = 40;
 
 /* Quanto tempo cada letra leva para sumir/aparecer... */
-const CHAR_FADE = 0.5;
+const CHAR_FADE = 0.4;
 /* ...e em quanto tempo o sorteio das letras se espalha (stagger total). */
-const CHAR_SPREAD = 1.5;
+const CHAR_SPREAD = 1.2;
 
 /* Duração de um bloco completo de fade (última letra termina aqui) */
 const FADE_BLOCK = CHAR_FADE + CHAR_SPREAD;
