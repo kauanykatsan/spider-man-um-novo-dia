@@ -370,7 +370,7 @@ function buildTimeline() {
   gsap.set(splits[0].chars, { opacity: 1 });
   gsap.set([...splits[1].chars, ...splits[2].chars], { opacity: 0 });
   gsap.set(textBox, { color: "rgba(0, 0, 0, 0.9)" });
-  gsap.set(ring, { filter: "invert(0)" });
+  gsap.set(ring, { filter: "invert(1)" });
   gsap.set(badge, { opacity: 1 });
 
   /* --- estado inicial do ato 2 --- */
@@ -459,7 +459,7 @@ function buildTimeline() {
   }, ACT_1 * 0.44);
 
   master.to(ring, {
-    filter: "invert(1)",
+    filter: "invert(0)",
     ease: "none",
     duration: ACT_1 * 0.08
   }, ACT_1 * 0.68);
