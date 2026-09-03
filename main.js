@@ -38,6 +38,13 @@ const FRAME_COUNT = 54;
 const LAST_FRAME  = FRAME_COUNT - 1;
 
 /* O enquadramento vertical repete o antigo background-position: 50% 66.9% */
+const FIRST_FRAME_FILE = 6;
+const LAST_FRAME_FILE = 59;
+
+const FRAME_COUNT = LAST_FRAME_FILE - FIRST_FRAME_FILE + 1;
+const LAST_FRAME = FRAME_COUNT - 1;
+
+/* O enquadramento vertical repete o antigo background-position: 50% 66.9% */
 const FOCUS_X = 0.5;
 const FOCUS_Y = 0.669;
 
@@ -50,11 +57,14 @@ const ctx    = canvas.getContext("2d", { alpha: false });
 const playhead = { frame: 0 };
 
 const frames = [];
-for (let i = 1; i <= FRAME_COUNT; i++) {
+
+for (let i = FIRST_FRAME_FILE; i <= LAST_FRAME_FILE; i++) {
   const img = new Image();
+
   img.src = `assets/frames/img-${String(i).padStart(2, "0")}.webp`;
-  /* redesenha assim que cada imagem chega, para o canvas nunca ficar vazio */
+
   img.addEventListener("load", render, { once: true });
+
   frames.push(img);
 }
 
