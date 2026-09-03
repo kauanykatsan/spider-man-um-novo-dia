@@ -4,7 +4,7 @@
 
 ## 🕷️🕸️ Spider-Man — Brand New Day
 
-https://kauanykatsan.github.io/spider-man-um-novo-dia/
+ https://kauanykatsan.github.io/spider-man-um-novo-dia/
 
 A web development project inspired by **Spider-Man — Brand New Day**.
 
