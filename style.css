@@ -401,6 +401,17 @@ body {
 .scroll-badge__ring {
   width: 100%;
   height: 100%;
+  animation: girarSelo 8s linear infinite;
+}
+
+@keyframes girarSelo {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .scroll-badge__hand {
